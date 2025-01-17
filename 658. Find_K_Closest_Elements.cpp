@@ -5,6 +5,8 @@ using namespace std;
 
 // Given a sorted array, two integers  k and  x, find the  k closest elements to  x in the array. The result should also be sorted in ascending order. If there is a tie, the smaller elements are always preferred.
 
+
+//  Binary search
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
